@@ -19,3 +19,4 @@
 *.lai
 *.la
 *.a
+/autom4te.cache
