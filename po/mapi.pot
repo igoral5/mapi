@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mapi 0.01\n"
+"Report-Msgid-Bugs-To: igoral@gmail.com\n"
+"POT-Creation-Date: 2011-08-24 08:53+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.cpp:42 src/main.cpp:59 src/main.cpp:289
+msgid "An exception occurred: "
+msgstr ""
+
+#: src/main.cpp:46 src/main.cpp:63 src/main.cpp:293
+msgid "An unknown exception\n"
+msgstr ""
+
+#: src/main.cpp:74
+msgid "Test 1 Creating empty object: "
+msgstr ""
+
+#: src/main.cpp:78 src/main.cpp:90 src/main.cpp:98 src/main.cpp:107
+#: src/main.cpp:116 src/main.cpp:125 src/main.cpp:133 src/main.cpp:143
+#: src/main.cpp:154 src/main.cpp:163 src/main.cpp:171 src/main.cpp:184
+#: src/main.cpp:195 src/main.cpp:274
+msgid "OK\n"
+msgstr ""
+
+#: src/main.cpp:79
+msgid "Test 2 Creating object from a range of iterators: "
+msgstr ""
+
+#: src/main.cpp:91
+msgid "Test 3 Creating object from mapi: "
+msgstr ""
+
+#: src/main.cpp:99
+msgid "Test 4 Creating object from map: "
+msgstr ""
+
+#: src/main.cpp:108
+msgid "Test 5 Assigning object mapi: "
+msgstr ""
+
+#: src/main.cpp:117
+msgid "Test 6 Assigning object map: "
+msgstr ""
+
+#: src/main.cpp:126
+msgid "Test 7 Creating const object: "
+msgstr ""
+
+#: src/main.cpp:134
+msgid "Test 8 Inserting value: "
+msgstr ""
+
+#: src/main.cpp:144
+msgid "Test 9 Inserting value with hint position: "
+msgstr ""
+
+#: src/main.cpp:155
+msgid "Test 10 Inserting from a range of iterators: "
+msgstr ""
+
+#: src/main.cpp:164
+msgid "Test 11 Deleting by value: "
+msgstr ""
+
+#: src/main.cpp:172
+msgid "Test 12 Deleting by iterator: "
+msgstr ""
+
+#: src/main.cpp:185
+msgid "Test 13 Deleting by range of iterators: "
+msgstr ""
+
+#: src/main.cpp:196
+msgid "Test 14 Find by value: "
+msgstr ""
+
+#: src/main.cpp:275
+msgid "Test 15 Check thread safety: "
+msgstr ""
+
+#: src/main.cpp:285
+msgid "tested "
+msgstr ""
+
+#: src/main.cpp:285
+msgid " times OK\n"
+msgstr ""
