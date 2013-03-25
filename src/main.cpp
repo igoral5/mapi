@@ -32,7 +32,7 @@ try
         for (int j = 0; j < 1000; ++j)
         {
             ost << "test" << j;
-            assert(m.insert(make_pair(ost.str(), j)).second);
+            assert(m.insert(std::make_pair(ost.str(), j)).second);
             ost.str("");
         }
         for (int j = 0; j < 1000; ++j)
@@ -301,6 +301,29 @@ try
     assert(vit[2]->second == 44);
     vit = a.findv(99);
     assert(vit.empty());
+    a.clear();
+    a["test1"] = 1;
+    a["test2"] = 2;
+    a["test1"] = a["test2"];
+    assert(a.validate());
+    assert(a.size() == 2);
+    vit = a.findv(1);
+    assert(vit.empty());
+    vit = a.findv(2);
+    assert(vit.size() == 2);
+    if (vit[0]->first == "test1")
+    {
+        assert(vit[0]->second == 2);
+        assert(vit[1]->first == "test2");
+        assert(vit[1]->second == 2);
+    }
+    else
+    {
+        assert(vit[0]->first == "test2");
+        assert(vit[0]->second == 2);
+        assert(vit[1]->first == "test1");
+        assert(vit[1]->second == 2);
+    }
     std::cout << _("OK\n");
     std::cout << _("Test 15 Check thread safety: ");
     a.clear();
