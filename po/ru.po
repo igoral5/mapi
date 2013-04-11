@@ -1,0 +1,118 @@
+# Russian translations for mapi package.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mapi package.
+# Igor Alimov <igoral@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mapi 0.01\n"
+"Report-Msgid-Bugs-To: igoral@gmail.com\n"
+"POT-Creation-Date: 2013-03-25 14:10+0400\n"
+"PO-Revision-Date: 2013-03-25 14:11+0300\n"
+"Last-Translator: Igor Alimov <alimov@shturmann.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/main.cpp:49 src/main.cpp:72 src/main.cpp:343
+msgid "An exception occurred: "
+msgstr "Возникло исключение: "
+
+#: src/main.cpp:54 src/main.cpp:77 src/main.cpp:348
+msgid "An unknown exception\n"
+msgstr "Неизвестное исключение\n"
+
+#: src/main.cpp:91
+msgid "Test 1 Creating empty object: "
+msgstr "Тест 1 Создание пустого объекта: "
+
+#: src/main.cpp:95 src/main.cpp:107 src/main.cpp:115 src/main.cpp:124
+#: src/main.cpp:133 src/main.cpp:142 src/main.cpp:150 src/main.cpp:160
+#: src/main.cpp:171 src/main.cpp:180 src/main.cpp:188 src/main.cpp:201
+#: src/main.cpp:212 src/main.cpp:327
+msgid "OK\n"
+msgstr "ОК\n"
+
+#: src/main.cpp:96
+msgid "Test 2 Creating object from a range of iterators: "
+msgstr "Тест 2 Создание объекта из диапазона итераторов: "
+
+#: src/main.cpp:108
+msgid "Test 3 Creating object from mapi: "
+msgstr "Тест 3 Создание объекта из mapi: "
+
+#: src/main.cpp:116
+msgid "Test 4 Creating object from map: "
+msgstr "Тест 4 Создание объекта из map: "
+
+#: src/main.cpp:125
+msgid "Test 5 Assigning object mapi: "
+msgstr "Тест 5 Присвоение из объекта mapi: "
+
+#: src/main.cpp:134
+msgid "Test 6 Assigning object map: "
+msgstr "Тест 6 Присвоение из объекта map: "
+
+#: src/main.cpp:143
+msgid "Test 7 Creating const object: "
+msgstr "Тест 7 Создание константного объекта: "
+
+#: src/main.cpp:151
+msgid "Test 8 Inserting value: "
+msgstr "Тест 8 Вставка значения: "
+
+#: src/main.cpp:161
+msgid "Test 9 Inserting value with hint position: "
+msgstr "Тест 9 Вставка значения с подсказкой положения: "
+
+#: src/main.cpp:172
+msgid "Test 10 Inserting from a range of iterators: "
+msgstr "Тест 10 Вставка из диапазона итераторов: "
+
+#: src/main.cpp:181
+msgid "Test 11 Deleting by value: "
+msgstr "Тест 11 Удаление по значению: "
+
+#: src/main.cpp:189
+msgid "Test 12 Deleting by iterator: "
+msgstr "Тест 12 Удаление по итератору: "
+
+#: src/main.cpp:202
+msgid "Test 13 Deleting by range of iterators: "
+msgstr "Тест 13 Удаление по диапазону итераторов: "
+
+#: src/main.cpp:213
+msgid "Test 14 Find by value: "
+msgstr "Тест 14 Поиск по значению: "
+
+#: src/main.cpp:328
+msgid "Test 15 Check thread safety: "
+msgstr "Тест 15 Проверка потокобезопасности: "
+
+#: src/main.cpp:338
+msgid "tested "
+msgstr "проверено "
+
+#: src/main.cpp:338
+msgid " times OK\n"
+msgstr " раз ОК\n"
+
+#~ msgid "Map:\n"
+#~ msgstr "Ассоциативный массив:\n"
+
+#~ msgid "Index:\n"
+#~ msgstr "Индекс:\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "General map\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Основной ассоциативный массив\n"
+
+#~ msgid "Hello World"
+#~ msgstr "Привет Мир"
