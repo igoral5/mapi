@@ -6866,7 +6866,7 @@ fi
 done
 
 LIBS_SAVED="$LIBS"
-LIBS="$LIBS_SAVED -lboost_thread"
+LIBS="$LIBS_SAVED -lboost_thread -lboost_system"
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for libboost_thread library" >&5
 $as_echo_n "checking for libboost_thread library... " >&6; }
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
@@ -6883,7 +6883,7 @@ _ACEOF
 if ac_fn_cxx_try_link "$LINENO"; then :
    { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 $as_echo "yes" >&6; }
-	  BOOST_THREAD_LIB="-lboost_thread"
+	  BOOST_THREAD_LIB="-lboost_thread -lboost_system"
 
 else
    { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5

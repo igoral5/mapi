@@ -13,12 +13,12 @@ AC_LANG([C++])
 AC_CHECK_HEADERS([boost/thread/mutex.hpp],,AC_MSG_ERROR(Not found header files boost/thread/mutex.hpp))
 AC_CHECK_HEADERS([boost/thread/thread.hpp],,AC_MSG_ERROR(Not found header files boost/thread/thread.hpp))
 LIBS_SAVED="$LIBS"
-LIBS="$LIBS_SAVED -lboost_thread"
+LIBS="$LIBS_SAVED -lboost_thread -lboost_system"
 AC_MSG_CHECKING([for libboost_thread library])
 AC_TRY_LINK([#include <boost/thread/thread.hpp>],
 	[ boost::thread current_thread ],
 	[ AC_MSG_RESULT(yes)
-	  BOOST_THREAD_LIB="-lboost_thread"
+	  BOOST_THREAD_LIB="-lboost_thread -lboost_system"
 	],
 	[ AC_MSG_RESULT(no)
 	  AC_MSG_ERROR(Unable to link with the libboost_thread library)

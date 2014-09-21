@@ -20,3 +20,4 @@
 *.la
 *.a
 /autom4te.cache
+/.settings/
